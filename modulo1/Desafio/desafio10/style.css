@@ -52,6 +52,7 @@ header > p{
     padding-left: 10px;
     padding-right:10px;
     margin: auto;
+    margin-bottom: 20px;
     color:white;
 }
 
@@ -67,6 +68,7 @@ nav a{
     padding: 10px;
     text-decoration: none;
     font-weight: bold;
+    white-space: nowrap;
     transition-duration: 1s;
 }
 
