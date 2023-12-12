@@ -7,11 +7,13 @@
 </head>
 <body>
     <h1>Meu primeiro formulário</h1>
-    <form>
-        <label for="name">Nome: </label><br>
-        <input type="text" name="nome" id="nome"><br>
-        <label for="sobrenome">Sobrenome: </label><br>
-        <input type="text" name="sobrenome" id="sobrenome"><br>
+    <form action="cadastro.php" method="post" autocomplete="off">
+        <label for="nome">Nome: </label><br>
+        <input type="text" name="name" id="nome"><br>
+        <p>
+            <label for="sobrenome">Sobrenome: </label><br>
+            <input type="text" name="lastname" id="sobrenome"><br>
+        </p>
         <input type="submit" value="Enviar">
 
     </form>
