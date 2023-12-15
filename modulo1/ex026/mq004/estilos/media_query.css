@@ -15,12 +15,18 @@ Grandes telas: acima de 1200px */
     }
 
     main{
+        width: 90vw;
         border: 2px solid black;
     }
 
     main h1{
         text-shadow: none;
         color: black;
+    }
+
+    main::after{
+        content: 'Essa impressão foi feita por Gabriel Soares';
+        text-decoration: overline;
     }
 
     img#phone{display: none;}
